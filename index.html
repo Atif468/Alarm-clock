@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <pre class="heading">A L A R M   C L O C K</pre>
+    <div id="box">
+        <div id="hour"></div><span>:</span>
+        <div id="minute"></div><span>:</span>
+        <div id="second"></div><span>:</span>
+        <div id="ampm"></div>
+    </div>
+
+    <div class="container">
+        <button onclick="showtime()">show time</button>
+
+        <button onclick="alarm()">set alarm</button>
+
+        <button onclick="pause()">stop alarm</button>
+    </div>
+
+    <div id="text"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
